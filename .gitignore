@@ -1,0 +1,15 @@
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/terraform.tfstate.*.backup
+**/.terraform/
+
+**/secrets.auto.tfvars
+**/*.tfvars
+!**/*.tfvars.example
+
+vpn/client.ovpn
+vpn/*.msi
+
+**/*.zip
+
+orders.csv
